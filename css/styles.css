@@ -1,13 +1,4 @@
-:root {
-    --primary-text-color: rgba(117, 117, 117, 1);
-    --title-text-color: #212121;
-    --accent-color: #2196F3;
-    --primary-white-color: #FFFFFF;
-    --primary-black-color: #000000;
-    --background-footer-color: #2F303A;
-    --paragraf-color: #757575;
 
-}
 
 body {
     background-color: var(--primary-white-color);
@@ -30,7 +21,7 @@ a {
 }
 
 .page__header {
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--border-bottom);
 }
 
 /* Container */
@@ -180,7 +171,7 @@ a {
     z-index: 999;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.2);
+    background-color: var(--box-color);
     width: 100%;
     height: 100%;
     scale: 1;
@@ -200,7 +191,7 @@ a {
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14),
-        0px 2px 1px rgba(0, 0, 0, 0.2);
+        0px 2px 1px var(--box-color);
 
 }
 
@@ -600,7 +591,7 @@ a {
     height: 120px;
     padding: 25px 101px;
     margin-bottom: 30px;
-    background: #F5F4FA;
+    background: var(--border-primary-color);
     border-radius: 4px;
     justify-content: center;
 }
@@ -621,7 +612,7 @@ a {
 
 /* Info team*/
 .section-team {
-    background-color: #F5F4FA;
+    background-color: var(--border-primary-color);
 }
 
 
@@ -666,7 +657,7 @@ a {
 
 .team-people {
     background-color: var(--primary-white-color);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px var(--box-color);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -730,7 +721,7 @@ a {
 }
 
 .team-background {
-    background-color: #F5F4FA;
+    background-color: var(--border-primary-color);
 }
 
 .team .item:not(:last-child) {
@@ -740,7 +731,7 @@ a {
 .team .item {
     background-color: var(--primary-white-color);
 
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px var(--box-color);
     border-radius: 0px 0px 4px 4px;
 
 }
@@ -938,7 +929,7 @@ a {
     border: transparent;
 
     color: var(--title-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--border-primary-color);
     cursor: pointer;
     padding: 6px 22px;
     border: transparent;
@@ -965,9 +956,9 @@ a {
 
 .signature {
     padding: 20px 24px;
-    border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
 }
 
 
@@ -1010,7 +1001,7 @@ a {
     border: transparent;
 
     color: var(--title-text-color);
-    background-color: #F5F4FA;
+    background-color: var(--border-primary-color);
     cursor: pointer;
     padding: 6px 22px;
     border: transparent;
@@ -1132,7 +1123,7 @@ a {
 
 .signature {
     padding: 20px 24px;
-    border: 1px solid #EEEEEE;
+    border: 1px solid var(--border-color);
     border-top: none;
 }
  
